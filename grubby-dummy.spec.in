@@ -1,0 +1,24 @@
+Name: grubby-dummy
+Version: @VERSION@
+Release: @REL@
+Summary: Dummy grubby package
+
+Group: System administration tools
+License: GPL 2.0
+BuildArch: noarch
+URL: https://www.qubes-os.org/
+
+Obsoletes: grubby < %{version}
+Provides: grubby = 1000:%{version}
+
+%description
+Dummy package for removing grubby package in older Qubes templates
+
+%prep
+
+%install
+
+%files
+
+%changelog
+@CHANGELOG@
