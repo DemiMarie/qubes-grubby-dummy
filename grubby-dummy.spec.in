@@ -1,6 +1,6 @@
 Name: grubby-dummy
 Version: @VERSION@
-Release: @REL@
+Release: @REL@%{?dist}
 Summary: Dummy grubby package
 
 Group: System administration tools
