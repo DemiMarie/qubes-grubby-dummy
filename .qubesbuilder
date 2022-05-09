@@ -1,4 +1,4 @@
 vm:
   rpm:
-    spec:
+    build:
     - grubby-dummy.spec
