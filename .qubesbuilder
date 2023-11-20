@@ -2,3 +2,5 @@ vm:
   rpm:
     build:
     - grubby-dummy.spec
+source:
+  create-archive: false
